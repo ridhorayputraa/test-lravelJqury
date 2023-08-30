@@ -16,10 +16,32 @@
         </style> -->
     </head>
     <body class="antialiased">
-      @include('partials.sidebar')
-      <div class="">
-        @yield('container')
+      <div class="wrapper">
+
+        @include('partials.sidebar')
+        <div class="main">
+        <!-- @yield('container') -->
+        <div class="main-nav">
+          <img id='hamburger' src="{{ asset('image/Hamburger.svg') }}"/>
+        </div>
+
+
+        <div class="content">
+          <div class="content-upper">
+            <p class="box-text">A</p>
+          </div>
+          <div class="content-middle">
+            <p class="box-text">B</p>
+            <p class="box-text">C</p>
+            <p class="box-text">D</p>
+          </div>
+          <div class="content-bottom">
+            <p class="box-text">E</p>
+          </div>
+        </div>
+
       </div>
       <script src="{{ asset('js/script.js') }}"></script>
+    </div>
     </body>
 </html>

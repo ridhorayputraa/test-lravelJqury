@@ -1,6 +1,7 @@
 <nav class="nav-vertical">
       <div class="nav-content">
-        <p>Home</p>
+        <p>
+          Home</p>
       </div>
       <div class="nav-content">
         <p>
