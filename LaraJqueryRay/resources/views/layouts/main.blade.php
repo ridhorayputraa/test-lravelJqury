@@ -22,7 +22,7 @@
         <div class="main">
         <!-- @yield('container') -->
         <div class="main-nav">
-          <img id='hamburger' src="{{ asset('image/Hamburger.svg') }}"/>
+          <img id='menu-button' src="{{ asset('image/Hamburger.svg') }}"/>
         </div>
 
 
